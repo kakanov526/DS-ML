@@ -22,3 +22,6 @@ public_url = ngrok.connect(addr='8501', proto='http')
 print(f'Tunnel URL: {public_url}')
 
 !streamlit run clean_app.py
+
+if st.button("🏠 กลับหน้าหลัก"):
+    st.switch_page("app.py")
