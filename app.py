@@ -19,4 +19,6 @@ elif st.button("📈 Sales Prediction Web App"):
     st.switch_page("pages/sale_predict.py")
 elif st.button("💹 Market Segmentation Predictor"):
     st.switch_page("pages/clustering_segment.py")
-    
+elif st.button("🛒 TCP Group: ระบบแนะนำสินค้าจาก Market Basket Analysis"):
+    st.switch_page("pages/association_items.py")
+
