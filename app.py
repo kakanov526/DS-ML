@@ -17,3 +17,6 @@ elif st.button("📂 Customer Data Cleaner"):
     st.switch_page("pages/clean_customers.py")
 elif st.button("📈 Sales Prediction Web App"):
     st.switch_page("pages/sale_predict.py")
+elif st.button("Market Segmentation Predictor"):
+    st.switch_page("pages/clustering_segment.py")
+    
